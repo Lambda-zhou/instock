@@ -1,7 +1,6 @@
 # -*- encoding: UTF-8 -*-
 
 import logging
-import settings
 
 def push(msg):
     logging.info(msg)
