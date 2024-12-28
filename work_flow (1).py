@@ -12,7 +12,6 @@ from strategy import keep_increasing
 from strategy import high_tight_flag
 from strategy import yuan_shen
 import akshare as ak
-import push
 import logging
 import time
 import datetime
@@ -81,6 +80,5 @@ def statistics(all_data, stocks):
     down5 = len(all_data.loc[(all_data['涨跌幅'] <= -5)])
 
     msg = "涨停数：{}   跌停数：{}\n涨幅大于5%数：{}  跌幅大于5%数：{}".format(limitup, limitdown, up5, down5)
-    push.statistics(msg)
 
 

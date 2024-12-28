@@ -5,8 +5,6 @@ from Crypto.Cipher import AES
 import base64
 import binascii
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 # 数据类

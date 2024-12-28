@@ -8,8 +8,6 @@ import instock.core.tablestructure as tbs
 import instock.lib.trade_time as trd
 from instock.lib.singleton_type import singleton_type
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 # 读取当天股票数据

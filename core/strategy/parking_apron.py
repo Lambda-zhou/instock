@@ -4,8 +4,6 @@
 from datetime import datetime
 from instock.core.strategy import turtle_trade
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 # 停机坪

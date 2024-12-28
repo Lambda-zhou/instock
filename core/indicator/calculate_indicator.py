@@ -6,8 +6,6 @@ import pandas as pd
 import numpy as np
 import talib as tl
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 def get_indicators(data, end_date=None, threshold=120, calc_threshold=None):

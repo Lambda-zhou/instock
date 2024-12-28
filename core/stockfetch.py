@@ -19,8 +19,6 @@ import instock.core.crawling.stock_hist_em as she
 import instock.core.crawling.stock_fund_em as sff
 import instock.core.crawling.stock_fhps_em as sfe
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 # 设置基础目录，每次加载使用。
 cpath_current = os.path.dirname(os.path.dirname(__file__))

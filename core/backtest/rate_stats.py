@@ -5,8 +5,6 @@ import logging
 import numpy as np
 import pandas as pd
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 def get_rates(code_name, data, stock_column, threshold=101):

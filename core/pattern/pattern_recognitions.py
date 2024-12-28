@@ -3,8 +3,6 @@
 
 import logging
 
-__author__ = 'myh '
-__date__ = '2023/3/24 '
 
 
 def get_pattern_recognitions(data, stock_column, end_date=None, threshold=120, calc_threshold=None):

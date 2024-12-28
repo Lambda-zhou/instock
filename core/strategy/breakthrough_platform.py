@@ -6,8 +6,6 @@ import numpy as np
 import talib as tl
 from instock.core.strategy import enter
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 # 平台突破策略

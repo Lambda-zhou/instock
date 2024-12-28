@@ -30,8 +30,6 @@ import backtest_data_daily_job as bdj
 import klinepattern_data_daily_job as kdj
 import selection_data_daily_job as sddj
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 def main():

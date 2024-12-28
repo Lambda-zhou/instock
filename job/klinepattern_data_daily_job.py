@@ -15,12 +15,9 @@ cpath = os.path.abspath(os.path.join(cpath_current, os.pardir))
 sys.path.append(cpath)
 import instock.lib.run_template as runt
 import instock.core.tablestructure as tbs
-import instock.lib.database as mdb
 from instock.core.singleton_stock import stock_hist_data
 import instock.core.pattern.pattern_recognitions as kpr
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 def prepare(date):

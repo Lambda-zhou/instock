@@ -4,8 +4,6 @@
 import datetime
 from instock.core.singleton_trade_date import stock_trade_date
 
-__author__ = 'myh '
-__date__ = '2023/4/10 '
 
 
 def is_trade_date(date=None):
