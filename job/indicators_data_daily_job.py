@@ -14,7 +14,6 @@ cpath_current = os.path.dirname(os.path.dirname(__file__))
 cpath = os.path.abspath(os.path.join(cpath_current, os.pardir))
 sys.path.append(cpath)
 import instock.lib.run_template as runt
-import instock.core.tablestructure as tbs
 import instock.core.indicator.calculate_indicator as idr
 from instock.core.singleton_stock import stock_hist_data
 
