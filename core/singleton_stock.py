@@ -4,7 +4,6 @@
 import logging
 import concurrent.futures
 import instock.core.stockfetch as stf
-import instock.core.tablestructure as tbs
 import instock.lib.trade_time as trd
 from instock.lib.singleton_type import singleton_type
 
