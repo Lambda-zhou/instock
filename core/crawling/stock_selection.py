@@ -4,8 +4,6 @@
 import math
 import pandas as pd
 import requests
-import instock.core.tablestructure as tbs
-
 
 
 def stock_selection() -> pd.DataFrame:
