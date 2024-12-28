@@ -3,7 +3,6 @@
 
 
 import logging
-import pymysql
 import os.path
 import sys
 
