@@ -7,7 +7,6 @@ import datetime
 import numpy as np
 import pandas as pd
 import talib as tl
-import instock.core.tablestructure as tbs
 import instock.lib.trade_time as trd
 import instock.core.crawling.trade_date_hist as tdh
 import instock.core.crawling.fund_etf_em as fee
